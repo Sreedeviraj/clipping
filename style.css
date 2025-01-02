@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+header{
+    text-align: center;
+    background-color: #6c5ce7;
+    color: white;
+    padding: 30px;
+}
+header h1{
+    font-size: 36px;
+}
+section{
+    margin: 0 auto;
+    padding: 30px;
+    max-width: 1000px;
+    
+}
+.clipping-section {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 25px;
+  }
+  .circle {
+    clip-path: circle(50%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://images.unsplash.com/photo-1521727857535-28d2047314ac?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTJ8fGZsaWdodHxlbnwwfHwwfHx8MA%3D%3D');
+
+  }
+  
+
+  .ellipse {
+    clip-path: ellipse(50% 35%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(' https://images.unsplash.com/photo-1501623021299-5a9e5f95960b?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8ZmxpZ2h0JTIwaW4lMjBza3l8ZW58MHx8MHx8fDA%3D');
+  }
+
+  .triangle {
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://images.unsplash.com/photo-1476058262011-9a78b43bb832?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8ZmxpZ2h0JTIwaW4lMjBza3l8ZW58MHx8MHx8fDA%3D');
+  }
+
+  .hexagon {
+    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url('https://media.istockphoto.com/id/868924070/photo/traffic-at-the-airport.webp?a=1&b=1&s=612x612&w=0&k=20&c=8em-DGtTGz-ecAfNugsfDOFZHePfzsshC46CTaGE6DE=');
+  }  
+  .clipping-section div {
+    background-color: #74b9ff;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+  }  
+  .text-clip {
+    font-size: 30px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    background-color: #55a7ff;
+    padding: 20px;
+    clip-path: ellipse(50% 70% at 50% 50%);
+    text-align: center;
+    width: 300px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+  footer{
+    text-align: center;
+    background-color: #2d3436;
+    padding: 20px;
+    color: white;
+  }
+  footer a{
+    text-decoration: none;
+
+  }
+  
